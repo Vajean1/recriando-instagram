@@ -1,0 +1,164 @@
+a {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body{
+	font-size: 14px;
+	width: 100%;
+	min-height: 100px;
+	background-color: rgb(243,243,243);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: arial;
+}
+
+.instagram {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.instagram-phone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.instagram-phone img {
+	width: 50rem;
+}
+
+.instagram-complete {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	min-height: 34rem;
+}
+
+.login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 1.3rem 0;
+	margin-top: 10px;
+	border: 1px solid lightgray;
+}
+
+.login:nth-child(1) {
+	min-height: 19rem;
+}
+
+.instagram-logo {
+	height: 3rem;
+}
+
+.formulario {
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.email, .senha {
+	border-color: lightgray;
+	border: 1px solid;
+	border-radius: 4px; 
+	color: lightgray;
+	margin-bottom: 5px;
+	width: 270px;
+	height: 30px;
+}
+
+
+.botao-entrar {
+	text-align: center;
+	background-color: rgb(173,216,230);
+	padding: 8px;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
+.facebook {
+	color: #0095f6
+	margin-top: 1rem;
+}
+
+.recuperar-senha{
+	font-size: 10px;
+}
+
+.facebook img {
+	margin: 0;
+	padding: 0;
+	width: 80px;
+}
+
+.blue_link {
+	color: rgb(100,149,237);
+}
+
+.obtenha-app{
+	margin: 0px;
+}
+
+.obtenha-app img {
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	margin-top: 10px;
+	margin: 5px;
+}
+
+.img-obt-app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1,5rem;
+}
+
+/* media queries */
+
+@media(max-width: 1024px){
+	.instagram{
+		width: 90%;
+	}
+}
+
+@media(max-width: 650px){
+	body{
+		background-color: white;
+	}
+
+	.login{
+		border: 1px solid transparent;
+	}
+
+	.instagram{
+		width: 90%;
+	}
+
+	.instagram-phone {
+		display: none;
+	}
+
+	.instagram-complete{
+		width: 100%;
+	}
+}
