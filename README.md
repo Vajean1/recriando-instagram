@@ -1,2 +1,6 @@
-Olá, este é o meu primeiro projeto do bootcamp da plataforma DIO
-Espero que que esteja bom.
+#Olá
+
+Este é o primeiro projeto do bootcamp HTML Web Developer, de recriar a página inicial do instagram
+utilizando flexbox, com HTML e CSS.
+Espero que tenha ficado, no mínimo, razoavél.
+:pudim
